@@ -4,6 +4,6 @@
 #            that divide that number evenly, including itself and 1, in ascending order.
 n=int(input("Please enter a positive integer: "))
 print("The factors of",n,"are:")
-for i in range (2,n):
+for i in range (1,n):
     if(n % i==0):
         print(i)
